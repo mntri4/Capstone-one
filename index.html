@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <title>API Capstone|Thinkful</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lato" rel="stylesheet">
+</head>
+<body>
+  
+	<section role="region">
+			<h1 class="top skyblue id="top">Wiki</h1>
+      <h1 class="middle lemon">YouTube</h1>
+      <h1 class="bottom electricblue">Google-Books</h1>
+      <h1 class="mission steelgrey">SEARCH THE TOP RESULTS ON <span>3</span> CHANNELS AT ONCE!!!</h1>
+		</header>	
+
+    <div class="start" id="start">
+      <div class="background"></div>
+      <button class="start-button" id="start-button" role="button">Start</button>
+    </div>
+
+		<main id="search" class="search hidden" role="main">
+			<form class="js-search" role="form">
+        <fieldset>
+          <legend>Search Channels</legend>
+          <label for="search-term" </label>
+				  <input class="js-query" placeholder="Search..." type="text" name="query" id="search-term">
+				  <button id="js-search" type="submit">Submit</button>
+			  </fieldset>
+      </form>
+		</main>
+	</section>
+
+	<section id="results" class="results hidden" aria-live="assertive" role="region">
+		<div class="box-1" id="wiki-results"></div>
+		<div class="box-2" id="yt-results"></div>
+		<div class="box-3" id="gb-results"></div>
+    <div class="background-bottom"></div>
+
+	</section>	
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
