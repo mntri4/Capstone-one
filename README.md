@@ -8,3 +8,8 @@ This module guides you through designing and implementing an API hack capstone, 
 
 In this first checkpoint, we'll go over the audience and requirements for the API hack and take a look at some example projects.
 
+
+## Screenshots
+Login Screen/Landing Page:
+
+![login screen](img/Capture.JPG)
