@@ -22,10 +22,11 @@ Result Page:
 
 ## Built With
 
-### Front-End
+### Front-End Technologies
 * HTML    
 * CSS
 * Javascript
+* jQuery
 
 ## Demo
 
