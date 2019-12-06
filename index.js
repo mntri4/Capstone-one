@@ -105,17 +105,17 @@ function startSearch() {
     }
   }
   
-  const WIKI_SEARCH_URL = 'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts%7Cpageimages&exsentences=3&list=&titles=';
+  const WIKI_SEARCH_URL = 'https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts%7Cpageimages&exsentences=3&list=&titles=';
   
   function getDataFromWikiApi(title, callback) {
-    var url = WIKI_SEARCH_URL + title + "&callback=?";
-    var queryData = "";
-    $.ajax({
-      url: url,
-      data: queryData,
-      dataType: 'json',
-      success: callback
-    });
+    const url = WIKI_SEARCH_URL + title;
+    console.log(url)
+    const queryData = "";
+    return fetch(url, {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    }).then(res => res.json()).then(callback)
   }
   
   //Get Google Books API data
