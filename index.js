@@ -126,7 +126,7 @@ function startSearch() {
     const query = {
       key: 'AIzaSyCXn1s41z5eUTYyq5L2JAc4YZpao_7ephk',
       q: searchTerm,
-      filter: 'free-ebooks',
+      
       maxResults: 3,
       orderBy: 'relevance',
     };
