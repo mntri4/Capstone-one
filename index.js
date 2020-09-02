@@ -10,7 +10,7 @@ function startSearch() {
   
   //Get Youtube API data
   const YOUTUBE_SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search';
-  const YOUTUBE_API_KEY = "AIzaSyCr0xM9UzbJYnqnz8KZvF2J58lZkZx9iwI";
+  const YOUTUBE_API_KEY = "AIzaSyDhETJjuSL6krelS7d6G5Xw78XsZYMWA-k";
   const YOUTUBE_WATCH_URL = "https://www.youtube.com/watch?v=";
   let PREV_TOKEN = '';
   let NEXT_TOKEN = '';
@@ -124,7 +124,7 @@ function startSearch() {
   function getDataFromGoogleBooksApi(searchTerm, callback) {
     let url = GOOGLE_BOOK_SEARCH_URL + searchTerm;
     const query = {
-      key: 'AIzaSyCr0xM9UzbJYnqnz8KZvF2J58lZkZx9iwI',
+      key: 'AIzaSyDhETJjuSL6krelS7d6G5Xw78XsZYMWA-k',
       q: searchTerm,
       
       maxResults: 3,
