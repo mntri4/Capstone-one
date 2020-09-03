@@ -10,7 +10,7 @@ function startSearch() {
   
   //Get Youtube API data
   const YOUTUBE_SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search';
-  const YOUTUBE_API_KEY = "AIzaSyCp-tS9DDmWchR8sc39vJ7vLD-pXhEv29E";
+  const YOUTUBE_API_KEY = "AIzaSyDhETJjuSL6krelS7d6G5Xw78XsZYMWA-k";
   const YOUTUBE_WATCH_URL = "https://www.youtube.com/watch?v=";
   let PREV_TOKEN = '';
   let NEXT_TOKEN = '';
