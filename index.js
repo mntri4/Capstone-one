@@ -124,7 +124,7 @@ function startSearch() {
   function getDataFromGoogleBooksApi(searchTerm, callback) {
     let url = GOOGLE_BOOK_SEARCH_URL + searchTerm;
     const query = {
-      key: 'AIzaSyCCcDGu8h_ZXcS_wCIPz2zGnjS-W4rVvUw',
+      key: 'AIzaSyAu1vr23zmW9OriNaqoRTZe1wuaqAhFEjY',
       q: searchTerm,
       
       maxResults: 3,
