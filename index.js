@@ -119,10 +119,10 @@ function startSearch() {
   }
   
   //Get Google Books API data
-  const GOOGLE_BOOK_SEARCH_URL = 'https://www.googleapis.com/books/v1/volumes?q=';
+  const GOOGLE_BOOK_SEARCH_URL = 'https://www.googleapis.com/books/v1/volumes?';
   
   function getDataFromGoogleBooksApi(searchTerm, callback) {
-    let url = GOOGLE_BOOK_SEARCH_URL + searchTerm;
+ 
     const query = {
       key: 'AIzaSyAu1vr23zmW9OriNaqoRTZe1wuaqAhFEjY',
       q: searchTerm,
